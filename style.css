@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+
+body {
+    font-family: 'Sarabun', sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contenedor{
+    width: 450px;
+    height: 600px;
+    border: 2px solid rgb(101, 088, 245);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.box-img{
+
+    width: 175px;
+    height: 175px;
+    border: 2px none black;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(./assets/avatar-default-icon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form p {
+    font-size: x-large;
+    font-style: normal;
+    color: #000;
+}
+.form input {
+    width: 45%;
+    height: 40px;
+    border-radius: 3px;
+    border: solid 1px rgb(117, 116, 116)    
+}
+
+.icon-placeholder::placeholder {
+    font-family: "Font Awesome 5 Free"; font-weight: 600; content: "\f007"
+}
+
+.icon-placeholder:focus {
+    outline: none;
+}
+
+.placeholder-pass::placeholder {
+    font-family: "Font Awesome 5 Free"; font-weight: 600; content: "\f007"
+}
+
+.placeholder-pass:focus {
+    outline: none;
+}
+.form button {
+    border: none;
+    background: rgb(101, 088, 245);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 55%;
+    height: 50px;
+    color: #fff;
+}    
+
+.form button:hover {
+    background: rgb(68, 59, 167);
+    
+}
+
+.form button.bhelp{
+    background: #fff;
+    color: rgb(101, 088, 245);
+    border: solid 1px rgb(101, 088, 245);
+    margin-top: 20px;
+    width: 35%;
+    cursor: pointer;
+}
+
+.form button.bhelp:hover {
+    text-decoration: underline; 
+}
+
